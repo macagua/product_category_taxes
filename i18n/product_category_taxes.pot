@@ -4,8 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-12 06:28+0000\n"
+"PO-Revision-Date: 2020-11-12 06:28+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -14,7 +16,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: product_category_taxes
-#: model:ir.model.fields,field_description:product_category_taxes.field_product_category_taxes_id
+#: model:ir.model.fields,field_description:product_category_taxes.field_product_category__taxes_id
 msgid "Customer Taxes"
 msgstr ""
 
@@ -29,27 +31,27 @@ msgid "Product Template"
 msgstr ""
 
 #. module: product_category_taxes
-#: model:ir.model.fields,field_description:product_category_taxes.field_product_category_product_template_ids
+#: model:ir.model.fields,field_description:product_category_taxes.field_product_category__product_template_ids
 msgid "Products Templates"
 msgstr ""
 
 #. module: product_category_taxes
-#: model:ir.ui.view,arch_db:product_category_taxes.product_category_taxes_form
+#: model_terms:ir.ui.view,arch_db:product_category_taxes.product_category_taxes_form
 msgid "Taxes"
 msgstr ""
 
 #. module: product_category_taxes
-#: model:ir.model.fields,field_description:product_category_taxes.field_product_category_supplier_taxes_id
+#: model:ir.model.fields,field_description:product_category_taxes.field_product_category__supplier_taxes_id
 msgid "Vendor Taxes"
 msgstr ""
 
 #. module: product_category_taxes
-#: model:ir.model.fields,help:product_category_taxes.field_product_category_taxes_id
+#: model:ir.model.fields,help:product_category_taxes.field_product_category__taxes_id
 msgid "When you set the product category for your product, these taxes will be copied to the product customer taxes."
 msgstr ""
 
 #. module: product_category_taxes
-#: model:ir.model.fields,help:product_category_taxes.field_product_category_supplier_taxes_id
+#: model:ir.model.fields,help:product_category_taxes.field_product_category__supplier_taxes_id
 msgid "When you set the product category for your product, these taxes will be copied to the product vendor taxes."
 msgstr ""
 
