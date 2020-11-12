@@ -1,14 +1,16 @@
-# -*- coding: utf-8 -*-
 {
-    "name": "Product Category Taxes",
-    "vesion": "10.0.1.0.0",
-    "author": "IT-Projects LLC, Ivan Yelizariev",
-    "summary": "Adding taxes into product category",
-    "license": "Other OSI approved licence",  # MIT
-    "category": "Accounting & Finance",
-    "website": "https://it-projects.info",
-    "depends": ["account"],
-    "data": ["views.xml"],
-    "demo": [],
-    "installable": True,
+    'name': 'Product Category Taxes',
+    'vesion': '11.0.1.0.0',
+    'author': 'IT-Projects LLC, Ivan Yelizariev',
+    'summary': 'Adding taxes into product category',
+    'license': 'Other OSI approved licence',  # MIT
+    'category': 'Accounting & Finance',
+    'website': 'https://it-projects.info',
+    'depends': ['account', 'sale'],
+    'data': ['views.xml'],
+    # 'demo': [],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
 }
+

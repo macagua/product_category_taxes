@@ -1,6 +1,3 @@
-Product category taxes
-=======================
-
 The module will allow you to configure customer and vendor taxes on product categories.
 
 * When you set the product category for your product, the taxes defined on the product category will be copied to the product.

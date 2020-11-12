@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from odoo import api, fields, models
 
 
@@ -97,3 +96,4 @@ class ProductCategory(models.Model):
                     old_category_taxes=old_category_taxes
                 ).write({"categ_id": self.id})
         return res
+
