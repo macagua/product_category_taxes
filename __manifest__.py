@@ -1,7 +1,8 @@
 {
     'name': 'Product Category Taxes',
-    'vesion': '11.0.1.0.0',
+    'vesion': '12.0.1.0.0',
     'author': 'IT-Projects LLC, Ivan Yelizariev',
+    'maintainer': 'leonardocaballero@gmail.com',
     'summary': 'Adding taxes into product category',
     'license': 'Other OSI approved licence',  # MIT
     'category': 'Accounting & Finance',
